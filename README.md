@@ -1,14 +1,16 @@
-# Reproducibility capsule
+# Reproducibility capsule: LLM Fine-Tuning Workloads (WoAIS '26)
 
-Regenerates the paper's data figures (Figs. 2-6) from IBM's public dataset LLMFineTuningBench.
+Regenerates the data figures (Figs. 2-6) of the paper *LLM Fine-Tuning Workloads: Characterization, Challenges, and
+Opportunities for Serverless AI*, by Radu Nicolae, Daniele Lotito, and Alexandru Iosup (WoAIS '26, at Middleware 2026),
+from IBM's public dataset LLMFineTuningBench.
 
 ## Run
 
 Needs Docker, running. In a terminal:
 
 ```sh
-curl -L -o woais2.zip https://anonymous.4open.science/api/repo/woais2/zip
-mkdir woais2 && cd woais2 && unzip -q ../woais2.zip
+git clone https://github.com/atlarge-research/llm-finetuning-workload-characterization.git
+cd llm-finetuning-workload-characterization
 docker build -t woais2 .
 docker run --rm -v ./out:/capsule/out woais2
 ```
