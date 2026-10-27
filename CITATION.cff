@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: If you use this capsule or the paper's findings, please cite the paper as below.
+title: "Reproducibility capsule: LLM Fine-Tuning Workloads (WoAIS '26)"
+type: software
+license: CC-BY-4.0
+repository-code: "https://github.com/atlarge-research/llm-finetuning-workload-characterization"
+authors:
+  - given-names: Radu
+    family-names: Nicolae
+    affiliation: Vrije Universiteit Amsterdam
+    orcid: "https://orcid.org/0009-0007-0318-9266"
+  - given-names: Daniele
+    family-names: Lotito
+    affiliation: IBM Research Europe - Dublin
+    orcid: "https://orcid.org/0000-0003-0320-0043"
+  - given-names: Alexandru
+    family-names: Iosup
+    affiliation: Vrije Universiteit Amsterdam
+    orcid: "https://orcid.org/0000-0001-8030-9398"
+preferred-citation:
+  type: conference-paper
+  title: "LLM Fine-Tuning Workloads: Characterization, Challenges, and Opportunities for Serverless AI"
+  authors:
+    - given-names: Radu
+      family-names: Nicolae
+      orcid: "https://orcid.org/0009-0007-0318-9266"
+    - given-names: Daniele
+      family-names: Lotito
+      orcid: "https://orcid.org/0000-0003-0320-0043"
+    - given-names: Alexandru
+      family-names: Iosup
+      orcid: "https://orcid.org/0000-0001-8030-9398"
+  collection-title: "2nd International Workshop on AI and Serverless (WoAIS '26), at Middleware 2026"
+  year: 2026
